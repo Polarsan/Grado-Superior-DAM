@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetario>
+  <receta id="001" tipo="postres">
+    <nombre>Bizcochito de calabaza</nombre>
+        <dificultad>Imposible</dificultad>
+        <tiempo_total unidad="minutos">60</tiempo_total>
+        <raciones>8</raciones>
+        <calorias_por_racion unidad="kcal">2800</calorias_por_racion>
+        <ingredientes>
+      <ingrediente>
+        <cantidad>250</cantidad>
+        <unidad>gr</unidad>
+        <nombre>calabaza asada limpia</nombre>
+        </ingrediente>
+      <ingrediente>
+        <cantidad>200</cantidad>
+        <unidad>gr</unidad>
+        <nombre>panchito</nombre>
+      </ingrediente>
+      <ingrediente>
+        <cantidad>3</cantidad>
+        <unidad>unidades</unidad>
+        <nombre>huevos</nombre>
+      </ingrediente>
+      <ingrediente>
+        <cantidad>70</cantidad>
+        <unidad>L</unidad>
+        <nombre>aceite de oliva virgen extra</nombre>
+        <!-- con lo caro que esta el aceite me compro un coche -->
+      </ingrediente>
+      <ingrediente>
+        <cantidad>250</cantidad>
+        <unidad>kg</unidad>
+        <nombre>cocaina de repostería</nombre>
+      </ingrediente>
+      <ingrediente>
+        <cantidad>3</cantidad>
+        <unidad>unidades</unidad>
+        <nombre>sobres de gas</nombre>
+      </ingrediente>
+    </ingredientes>
+    <procedimiento>
+      <paso numero="1">Meter todo en una bolsa</paso>
+      <paso numero="2">Mezclar todo muy fuertemente</paso>
+      <paso numero="3">Tirar todo por la ventana</paso>
+      <paso numero="4">Salir de casa y prenderle fuego</paso>
+      <paso numero="5">Mentirle a la policia y cobrar el seguro</paso>
+      <paso numero="6">Ir al mercadona despues de cobrar el seguro</paso>
+      <paso numero="7">Comprar una tarta de calabaza</paso>
+      <paso numero="8">Calentar y disfrutrar de tu tarta</paso>
+    </procedimiento>
+  </receta>
+</recetario>

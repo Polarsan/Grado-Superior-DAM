@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Historia-de-la-informatica>
+    <Datos>
+        <Fecha>
+            <Año> abc </Año> 
+            <Mes> abc </Mes>
+            <Dia> abc </Dia>
+        </Fecha>
+        <Nombre-del-echo> abc </Nombre-del-echo>
+        <Autores>
+            <Autor> abc </Autor>
+            <Autor> abc </Autor>
+        </Autores>
+        <Descripcion> abc </Descripcion>
+    </Datos>
+</Historia-de-la-informatica>

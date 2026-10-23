@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Universidad>
+      <Facultades> 
+            <Facultad>
+                  <Nombre> abc </Nombre>
+                  <Decano> Diego </Decano>
+                        <Departamento>
+                              <Nombre-Departamento> abc </Nombre-Departamento>
+                              <Jefe-Departamento> Diego </Jefe-Departamento>
+                                    <Carrera>
+                                          <Coordinador> Diego </Coordinador>
+                                          <Nombre-Carrera> abc </Nombre-Carrera>
+                                          <Duracion-Años> 1/01/2001 </Duracion-Años>
+                                                <Curso>
+                                                      <Codigo> abc </Codigo>
+                                                      <Nombre> abc </Nombre>
+                                                      <Profesor> Diego </Profesor>
+                                                      <Semestre> 2 </Semestre>
+                                                            <Estudiantes>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+
+
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                            </Estudiantes>
+                                                </Curso>
+                                                <Curso>
+                                                      <Codigo> abc </Codigo>
+                                                      <Nombre> abc </Nombre>
+                                                      <Profesor> Diego </Profesor>
+                                                      <Semestre> 2 </Semestre>
+                                                            <Estudiantes>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+
+
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                            </Estudiantes>
+
+                                                </Curso>
+                                    </Carrera>
+                         </Departamento>
+                  
+            </Facultad>
+            <Facultad>
+                  <Nombre> abc </Nombre>
+                  <Decano> Diego </Decano>
+                        <Departamento>
+                              <Nombre-Departamento> abc </Nombre-Departamento>
+                              <Jefe-Departamento> Diego </Jefe-Departamento>
+                                    <Carerrera>
+                                          <Coordinador> Diego </Coordinador>
+                                          <Nombre-Carrera> abc </Nombre-Carrera>
+                                          <Duracion-Años> 1/01/2001 </Duracion-Años>
+                                                <Curso>
+                                                      <Codigo> abc </Codigo>
+                                                      <Nombre> abc </Nombre>
+                                                      <Profesor> Diego </Profesor>
+                                                      <Semestre> 2 </Semestre>
+                                                            <Estudiantes>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+
+
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                            </Estudiantes>
+                                                </Curso>
+                                                <Curso>
+                                                      <Codigo> abc </Codigo>
+                                                      <Nombre> abc </Nombre>
+                                                      <Profesor> Diego </Profesor>
+                                                      <Semestre> 2 </Semestre>
+                                                            <Estudiantes>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+
+
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                                  <Estudiante>
+                                                                        <Codigo> abc </Codigo>
+                                                                        <Nombre> abc </Nombre>
+                                                                        <F-Nacimiento> 1/01/2001 </F-Nacimiento>
+                                                                  </Estudiante>
+                                                            </Estudiantes>
+
+                                                </Curso>
+                                    </Carerrera>
+            </Departamento>
+            </Facultad> 
+      </Facultades>
+</Universidad>

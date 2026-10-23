@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding "utf-8"?>
+<libros>
+    <libro>
+        <nombre> El imperio final </nombre>
+        <autor> Brandon Sanderson </autor>
+        <estilo> Fantasia </estilo>
+        <añoPublicacion> 2018 </añoPublicacion>
+
+    </libro>
+    <libro>
+        <nombre> Seis de cuervos </nombre>
+        <autor> Leigh Bardugo </autor>
+        <estilo> Medival</estilo>
+        <añoPublicacion> 2025 </añoPublicacion>
+    </libro>
+    <libro>
+        <nombre> El aliento de los Dioses</nombre>
+        <autor> Brandon Sanderson </autor>
+        <estilo> Fantasia</estilo>
+        <añoPublicacion> 2020 </añoPublicacion>
+        </libro>
+</libros>
