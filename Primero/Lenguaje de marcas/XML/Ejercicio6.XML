@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<con:convencion
+    xmlns:con="http://www.ejemplo.com/convencion"
+    xmlns:pro="http://www.ejemplo.com/productos"
+    xmlns:exp="http://www.ejemplo.com/expositores">
+
+    <pro:producto>
+        <pro:id>1</pro:id>
+        <pro:nombre>Ordenador portátil</pro:nombre>
+        <pro:descripcion>Ordenador portátil de última generación para uso profesional.</pro:descripcion>
+    </pro:producto>
+
+    <pro:producto>
+        <pro:id>2</pro:id>
+        <pro:nombre>Impresora 3D</pro:nombre>
+        <pro:descripcion>Impresora capaz de crear objetos tridimensionales mediante impresión.</pro:descripcion>
+    </pro:producto>
+
+    <pro:producto>
+        <pro:id>3</pro:id>
+        <pro:nombre>Gafas de realidad virtual</pro:nombre>
+        <pro:descripcion>Dispositivo que permite experimentar entornos virtuales inmersivos.</pro:descripcion>
+    </pro:producto>
+
+    <exp:expositor>
+        <exp:id>1</exp:id>
+        <exp:nombre>TecnoWorld</exp:nombre>
+        <exp:descripcion>Empresa especializada en ordenadores y componentes tecnológicos.</exp:descripcion>
+    </exp:expositor>
+
+    <exp:expositor>
+        <exp:id>2</exp:id>
+        <exp:nombre>Innovatech</exp:nombre>
+        <exp:descripcion>Empresa dedicada al desarrollo de impresoras y fabricación 3D.</exp:descripcion>
+    </exp:expositor>
+
+    <exp:expositor>
+        <exp:id>3</exp:id>
+        <exp:nombre>Virtual Experience</exp:nombre>
+        <exp:descripcion>Empresa especializada en realidad virtual y experiencias inmersivas.</exp:descripcion>
+    </exp:expositor>
+
+</con:convencion>

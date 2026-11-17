@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<uni:universidad
+    xmlns:uni="http://www.ejemplo.com/universidad"
+    xmlns:fac="http://www.ejemplo.com/facultades"
+    xmlns:dep="http://www.ejemplo.com/departamentos"
+    xmlns:car="http://www.ejemplo.com/carreras"
+    xmlns:cur="http://www.ejemplo.com/cursos"
+    xmlns:est="http://www.ejemplo.com/estudiantes">
+
+    <fac:facultad nombre="Facultad de Ciencias" id="1">
+        <fac:decano>Juan Martínez</fac:decano>
+
+        <dep:departamento nombre="Departamento de Informática" id="1">
+            <dep:jefe>Pedro Sánchez</dep:jefe>
+
+            <car:carrera nombre="Ingeniería Informática" duracion="4">
+                <car:coordinador>Ana López</car:coordinador>
+
+                <cur:curso codigo="INF101" semestre="1">
+                    <cur:nombre>Programación</cur:nombre>
+                    <cur:profesor>Carlos García</cur:profesor>
+
+                    <est:estudiantes>
+                        <est:estudiante codigo="E001">
+                            <est:nombre>María Fernández</est:nombre>
+                            <est:fechaNacimiento>2005-03-15</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E002">
+                            <est:nombre>David Pérez</est:nombre>
+                            <est:fechaNacimiento>2004-07-22</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E003">
+                            <est:nombre>Laura Gómez</est:nombre>
+                            <est:fechaNacimiento>2005-11-10</est:fechaNacimiento>
+                        </est:estudiante>
+                    </est:estudiantes>
+                </cur:curso>
+
+                <cur:curso codigo="INF102" semestre="2">
+                    <cur:nombre>Bases de Datos</cur:nombre>
+                    <cur:profesor>Lucía Torres</cur:profesor>
+
+                    <est:estudiantes>
+                        <est:estudiante codigo="E004">
+                            <est:nombre>Daniel Ruiz</est:nombre>
+                            <est:fechaNacimiento>2004-02-18</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E005">
+                            <est:nombre>Sofía Martín</est:nombre>
+                            <est:fechaNacimiento>2005-06-09</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E006">
+                            <est:nombre>Álvaro Díaz</est:nombre>
+                            <est:fechaNacimiento>2004-12-30</est:fechaNacimiento>
+                        </est:estudiante>
+                    </est:estudiantes>
+                </cur:curso>
+            </car:carrera>
+        </dep:departamento>
+    </fac:facultad>
+
+    <fac:facultad nombre="Facultad de Humanidades" id="2">
+        <fac:decano>Isabel Romero</fac:decano>
+
+        <dep:departamento nombre="Departamento de Historia" id="2">
+            <dep:jefe>Manuel Navarro</dep:jefe>
+
+            <car:carrera nombre="Historia" duracion="4">
+                <car:coordinador>Elena Sánchez</car:coordinador>
+
+                <cur:curso codigo="HIS101" semestre="1">
+                    <cur:nombre>Historia Antigua</cur:nombre>
+                    <cur:profesor>Roberto Molina</cur:profesor>
+
+                    <est:estudiantes>
+                        <est:estudiante codigo="E007">
+                            <est:nombre>Paula Castro</est:nombre>
+                            <est:fechaNacimiento>2005-01-12</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E008">
+                            <est:nombre>Javier Ortega</est:nombre>
+                            <est:fechaNacimiento>2004-09-25</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E009">
+                            <est:nombre>Claudia Reyes</est:nombre>
+                            <est:fechaNacimiento>2005-04-17</est:fechaNacimiento>
+                        </est:estudiante>
+                    </est:estudiantes>
+                </cur:curso>
+
+                <cur:curso codigo="HIS102" semestre="2">
+                    <cur:nombre>Historia Contemporánea</cur:nombre>
+                    <cur:profesor>Marta Alonso</cur:profesor>
+
+                    <est:estudiantes>
+                        <est:estudiante codigo="E010">
+                            <est:nombre>Andrés Gil</est:nombre>
+                            <est:fechaNacimiento>2004-05-08</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E011">
+                            <est:nombre>Elena Vidal</est:nombre>
+                            <est:fechaNacimiento>2005-08-19</est:fechaNacimiento>
+                        </est:estudiante>
+
+                        <est:estudiante codigo="E012">
+                            <est:nombre>Marcos León</est:nombre>
+                            <est:fechaNacimiento>2004-10-03</est:fechaNacimiento>
+                        </est:estudiante>
+                    </est:estudiantes>
+                </cur:curso>
+            </car:carrera>
+        </dep:departamento>
+    </fac:facultad>
+
+</uni:universidad>

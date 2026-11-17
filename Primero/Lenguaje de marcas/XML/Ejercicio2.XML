@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<his:evolucion_informatica
+    xmlns:his="http://www.ejemplo.com/historia"
+    xmlns:aut="http://www.ejemplo.com/autores">
+
+    <his:acontecimiento id="1" año="3500 a.C.">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>Ábaco</his:hecho>
+        <aut:autor></aut:autor>
+        <his:descripcion>Es el dispositivo más antiguo utilizado para realizar operaciones aritméticas.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="2" año="1646">
+        <his:mes>Marzo</his:mes>
+        <his:dia>8</his:dia>
+        <his:hecho>Calculadora universal</his:hecho>
+        <aut:autor>Leibnitz</aut:autor>
+        <his:descripcion>Máquina que suma, resta, multiplica, divide y hace raíces cuadradas.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="3" año="1792">
+        <his:mes>Marzo</his:mes>
+        <his:dia>14</his:dia>
+        <his:hecho>Máquina analítica</his:hecho>
+        <aut:autor>Charles Babbage y Ada Lovelace</aut:autor>
+        <his:descripcion>Máquina que resolvía funciones y obtenía tablas.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="4" año="1852">
+        <his:mes>Abril</his:mes>
+        <his:dia>12</his:dia>
+        <his:hecho>Varias máquinas</his:hecho>
+        <aut:autor>Torres Quevedo</aut:autor>
+        <his:descripcion>Construyó una máquina para jugar al ajedrez y una calculadora.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="5" año="1936">
+        <his:mes>Septiembre</his:mes>
+        <his:dia>15</his:dia>
+        <his:hecho>Máquina de Turing</his:hecho>
+        <aut:autor>Alan Turing</aut:autor>
+        <his:descripcion>Máquina capaz de resolver todo tipo de problemas con la solución algorítmica. Con Turing se inició la teoría matemática de la computación.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="6" año="1943">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>Ordenador digital electrónico</his:hecho>
+        <aut:autor>Maurice V. Wilkes</aut:autor>
+        <his:descripcion>El primer ordenador del mundo fue el EDSAC, desarrollado en la Universidad de Cambridge.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="7" año="1958">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>Segunda generación de ordenadores</his:hecho>
+        <aut:autor>IBM</aut:autor>
+        <his:descripcion>Reemplaza las válvulas de vacío por los transistores. Son más pequeños y consumen menos electricidad.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="8" año="1963">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>Código ASCII</his:hecho>
+        <aut:autor>ANSI</aut:autor>
+        <his:descripcion>Nace a partir de reordenar y expandir el conjunto de símbolos y caracteres utilizados en la telegrafía por la compañía Bell.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="9" año="1964">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>Chips</his:hecho>
+        <aut:autor>Jack S. Kilby y Robert Noyce</aut:autor>
+        <his:descripcion>Estructura de pequeñas dimensiones de material semiconductor sobre la que se fabrican circuitos electrónicos.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="10" año="1969">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>ARPANET</his:hecho>
+        <aut:autor>MIT (Massachusetts Institute of Technology)</aut:autor>
+        <his:descripcion>Red de computadoras construida en 1969 para enviar datos militares y conectar grupos de investigación a través de los Estados Unidos.</his:descripcion>
+    </his:acontecimiento>
+
+    <his:acontecimiento id="11" año="1981">
+        <his:mes></his:mes>
+        <his:dia></his:dia>
+        <his:hecho>MS-DOS</his:hecho>
+        <aut:autor>Microsoft</aut:autor>
+        <his:descripcion>Sistema operativo de disco para el IBM PC y sistemas compatibles.</his:descripcion>
+    </his:acontecimiento>
+
+</his:evolucion_informatica>

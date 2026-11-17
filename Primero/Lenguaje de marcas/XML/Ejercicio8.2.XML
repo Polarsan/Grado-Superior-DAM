@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fer:feria
+    xmlns:fer="http://www.ejemplo.com/feria"
+    xmlns:lib="http://www.ejemplo.com/libros"
+    xmlns:obr="http://www.ejemplo.com/obras">
+
+    <lib:libro>
+        <lib:id>1</lib:id>
+        <lib:nombre>El nombre del viento</lib:nombre>
+        <lib:descripcion>Novela de fantasía que cuenta la historia de Kvothe.</lib:descripcion>
+    </lib:libro>
+
+    <lib:libro>
+        <lib:id>2</lib:id>
+        <lib:nombre>1984</lib:nombre>
+        <lib:descripcion>Novela distópica sobre una sociedad controlada por un gobierno totalitario.</lib:descripcion>
+    </lib:libro>
+
+    <lib:libro>
+        <lib:id>3</lib:id>
+        <lib:nombre>Dune</lib:nombre>
+        <lib:descripcion>Novela de ciencia ficción ambientada en el planeta desértico Arrakis.</lib:descripcion>
+    </lib:libro>
+
+    <obr:obra>
+        <obr:id>1</obr:id>
+        <obr:nombre>Romeo y Julieta</obr:nombre>
+        <obr:descripcion>Obra teatral que narra una historia de amor entre dos jóvenes de familias enfrentadas.</obr:descripcion>
+    </obr:obra>
+
+    <obr:obra>
+        <obr:id>2</obr:id>
+        <obr:nombre>La casa de Bernarda Alba</obr:nombre>
+        <obr:descripcion>Obra teatral que representa la vida de una familia marcada por la autoridad y la represión.</obr:descripcion>
+    </obr:obra>
+
+    <obr:obra>
+        <obr:id>3</obr:id>
+        <obr:nombre>Don Juan Tenorio</obr:nombre>
+        <obr:descripcion>Obra teatral que cuenta las aventuras y los amores de Don Juan.</obr:descripcion>
+    </obr:obra>
+
+</fer:feria>

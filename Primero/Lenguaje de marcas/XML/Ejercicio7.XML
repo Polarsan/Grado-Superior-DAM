@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alm:almacen
+    xmlns:alm="http://www.ejemplo.com/almacen"
+    xmlns:pro="http://www.ejemplo.com/productos"
+    xmlns:cli="http://www.ejemplo.com/clientes">
+
+    <pro:producto id="P001" estado="Disponible">
+        <pro:nombre>Ordenador portátil</pro:nombre>
+    </pro:producto>
+
+    <pro:producto id="P002" estado="Agotado">
+        <pro:nombre>Teclado mecánico</pro:nombre>
+    </pro:producto>
+
+    <pro:producto id="P003" estado="Disponible">
+        <pro:nombre>Ratón inalámbrico</pro:nombre>
+    </pro:producto>
+
+    <cli:cliente id="C001" estado="Activo">
+        <cli:nombre>Juan Martínez</cli:nombre>
+    </cli:cliente>
+
+    <cli:cliente id="C002" estado="Inactivo">
+        <cli:nombre>María López</cli:nombre>
+    </cli:cliente>
+
+    <cli:cliente id="C003" estado="Activo">
+        <cli:nombre>Carlos Sánchez</cli:nombre>
+    </cli:cliente>
+
+</alm:almacen>

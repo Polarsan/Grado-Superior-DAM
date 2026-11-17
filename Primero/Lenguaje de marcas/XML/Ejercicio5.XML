@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alm:almacen
+    xmlns:alm="http://www.ejemplo.com/almacen"
+    xmlns:pro="http://www.ejemplo.com/productos"
+    xmlns:ubi="http://www.ejemplo.com/ubicaciones"
+    xmlns:prov="http://www.ejemplo.com/proveedores">
+
+    <pro:producto codigo="P001" categoria="Alimentacion">
+        <pro:nombre>Leche entera</pro:nombre>
+        <pro:precio>1.20</pro:precio>
+        <pro:fechaCaducidad>2026-12-15</pro:fechaCaducidad>
+
+        <ubi:ubicaciones>
+            <ubi:ubicacion pasillo="1" estante="2" capacidadMaxima="100"/>
+            <ubi:ubicacion pasillo="3" estante="1" capacidadMaxima="80"/>
+        </ubi:ubicaciones>
+
+        <prov:proveedores>
+            <prov:proveedor>
+                <prov:nombre>Distribuciones Alimentarias SL</prov:nombre>
+                <prov:direccion>Calle Mayor 15, Murcia</prov:direccion>
+                <prov:telefono>968123456</prov:telefono>
+            </prov:proveedor>
+
+            <prov:proveedor>
+                <prov:nombre>Lacteos del Sur</prov:nombre>
+                <prov:direccion>Avenida de Europa 20, Cartagena</prov:direccion>
+                <prov:telefono>968654321</prov:telefono>
+            </prov:proveedor>
+        </prov:proveedores>
+    </pro:producto>
+
+    <pro:producto codigo="P002" categoria="Limpieza">
+        <pro:nombre>Detergente liquido</pro:nombre>
+        <pro:precio>4.50</pro:precio>
+        <pro:fechaCaducidad>2028-06-20</pro:fechaCaducidad>
+
+        <ubi:ubicaciones>
+            <ubi:ubicacion pasillo="4" estante="2" capacidadMaxima="60"/>
+            <ubi:ubicacion pasillo="5" estante="3" capacidadMaxima="50"/>
+        </ubi:ubicaciones>
+
+        <prov:proveedores>
+            <prov:proveedor>
+                <prov:nombre>Productos de Limpieza SA</prov:nombre>
+                <prov:direccion>Calle Industria 8, Murcia</prov:direccion>
+                <prov:telefono>968112233</prov:telefono>
+            </prov:proveedor>
+
+            <prov:proveedor>
+                <prov:nombre>Higiene y Hogar SL</prov:nombre>
+                <prov:direccion>Avenida del Trabajo 12, Alicante</prov:direccion>
+                <prov:telefono>965445566</prov:telefono>
+            </prov:proveedor>
+        </prov:proveedores>
+    </pro:producto>
+
+    <pro:producto codigo="P003" categoria="Bebidas">
+        <pro:nombre>Agua mineral</pro:nombre>
+        <pro:precio>0.80</pro:precio>
+        <pro:fechaCaducidad>2027-10-10</pro:fechaCaducidad>
+
+        <ubi:ubicaciones>
+            <ubi:ubicacion pasillo="2" estante="1" capacidadMaxima="120"/>
+            <ubi:ubicacion pasillo="6" estante="2" capacidadMaxima="90"/>
+        </ubi:ubicaciones>
+
+        <prov:proveedores>
+            <prov:proveedor>
+                <prov:nombre>Aguas Minerales del Mediterraneo</prov:nombre>
+                <prov:direccion>Calle del Agua 5, Murcia</prov:direccion>
+                <prov:telefono>968778899</prov:telefono>
+            </prov:proveedor>
+
+            <prov:proveedor>
+                <prov:nombre>Bebidas Levante SL</prov:nombre>
+                <prov:direccion>Carretera Nacional 340, Alicante</prov:direccion>
+                <prov:telefono>965998877</prov:telefono>
+            </prov:proveedor>
+        </prov:proveedores>
+    </pro:producto>
+
+</alm:almacen>

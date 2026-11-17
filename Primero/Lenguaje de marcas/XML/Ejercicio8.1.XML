@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fan:ligaFantasy
+    xmlns:fan="http://www.ejemplo.com/fantasy"
+    xmlns:lig="http://www.ejemplo.com/ligas"
+    xmlns:equ="http://www.ejemplo.com/equipos"
+    xmlns:jug="http://www.ejemplo.com/jugadores"
+    xmlns:pun="http://www.ejemplo.com/puntos"
+    xmlns:rol="http://www.ejemplo.com/roles"
+    xmlns:fant="http://www.ejemplo.com/equiposFantasy">
+
+    <lig:liga nombre="LaLiga" pais="España">
+
+        <equ:equipo nombre="Real Madrid" ciudad="Madrid">
+            <jug:jugador posicion="Delantero">
+                <jug:nombre>Kylian Mbappé</jug:nombre>
+                <jug:edad>27</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">12</pun:puntos>
+                <pun:puntos fecha="2026-09-22">15</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="15"/>
+                <rol:rol nombre="Suplente" coste="8"/>
+            </jug:jugador>
+
+            <jug:jugador posicion="Centrocampista">
+                <jug:nombre>Jude Bellingham</jug:nombre>
+                <jug:edad>23</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">10</pun:puntos>
+                <pun:puntos fecha="2026-09-22">8</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="12"/>
+                <rol:rol nombre="Suplente" coste="6"/>
+            </jug:jugador>
+        </equ:equipo>
+
+        <equ:equipo nombre="FC Barcelona" ciudad="Barcelona">
+            <jug:jugador posicion="Delantero">
+                <jug:nombre>Lamine Yamal</jug:nombre>
+                <jug:edad>19</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">14</pun:puntos>
+                <pun:puntos fecha="2026-09-22">11</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="14"/>
+                <rol:rol nombre="Suplente" coste="7"/>
+            </jug:jugador>
+
+            <jug:jugador posicion="Centrocampista">
+                <jug:nombre>Pedri</jug:nombre>
+                <jug:edad>23</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">9</pun:puntos>
+                <pun:puntos fecha="2026-09-22">13</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="11"/>
+                <rol:rol nombre="Suplente" coste="5"/>
+            </jug:jugador>
+        </equ:equipo>
+
+    </lig:liga>
+
+    <lig:liga nombre="Premier League" pais="Inglaterra">
+
+        <equ:equipo nombre="Manchester City" ciudad="Manchester">
+            <jug:jugador posicion="Delantero">
+                <jug:nombre>Erling Haaland</jug:nombre>
+                <jug:edad>26</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">16</pun:puntos>
+                <pun:puntos fecha="2026-09-22">18</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="16"/>
+                <rol:rol nombre="Suplente" coste="9"/>
+            </jug:jugador>
+
+            <jug:jugador posicion="Centrocampista">
+                <jug:nombre>Phil Foden</jug:nombre>
+                <jug:edad>26</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">8</pun:puntos>
+                <pun:puntos fecha="2026-09-22">10</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="10"/>
+                <rol:rol nombre="Suplente" coste="5"/>
+            </jug:jugador>
+        </equ:equipo>
+
+        <equ:equipo nombre="Liverpool" ciudad="Liverpool">
+            <jug:jugador posicion="Delantero">
+                <jug:nombre>Mohamed Salah</jug:nombre>
+                <jug:edad>34</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">13</pun:puntos>
+                <pun:puntos fecha="2026-09-22">17</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="15"/>
+                <rol:rol nombre="Suplente" coste="8"/>
+            </jug:jugador>
+
+            <jug:jugador posicion="Defensa">
+                <jug:nombre>Virgil van Dijk</jug:nombre>
+                <jug:edad>35</jug:edad>
+
+                <pun:puntos fecha="2026-09-15">7</pun:puntos>
+                <pun:puntos fecha="2026-09-22">9</pun:puntos>
+
+                <rol:rol nombre="Titular" coste="9"/>
+                <rol:rol nombre="Suplente" coste="4"/>
+            </jug:jugador>
+        </equ:equipo>
+
+    </lig:liga>
+
+    <fant:equipoFantasy nombre="Los Galácticos" presupuestoTotal="100" numeroJugadores="4">
+        <fant:jugador nombre="Kylian Mbappé" rol="Titular"/>
+        <fant:jugador nombre="Jude Bellingham" rol="Titular"/>
+        <fant:jugador nombre="Erling Haaland" rol="Titular"/>
+        <fant:jugador nombre="Virgil van Dijk" rol="Suplente"/>
+    </fant:equipoFantasy>
+
+</fan:ligaFantasy>

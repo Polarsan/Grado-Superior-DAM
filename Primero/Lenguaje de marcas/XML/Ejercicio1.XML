@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rec:recetas
+    xmlns:rec="http://www.ejemplo.com/recetas"
+    xmlns:ing="http://www.ejemplo.com/ingredientes"
+    xmlns:pre="http://www.ejemplo.com/preparacion">
+
+    <rec:receta tipo="Postre" id="1">
+
+        <rec:nombre>Bizcocho de calabaza</rec:nombre>
+        <rec:dificultad>Media</rec:dificultad>
+        <rec:tiempo_total>45 minutos</rec:tiempo_total>
+        <rec:raciones>8</rec:raciones>
+        <rec:calorias_por_racion>300 kcal</rec:calorias_por_racion>
+
+        <ing:ingredientes>
+            <ing:ingrediente cantidad="250 g">Calabaza asada limpia</ing:ingrediente>
+            <ing:ingrediente cantidad="200 g">Panela</ing:ingrediente>
+            <ing:ingrediente cantidad="3">Huevos</ing:ingrediente>
+            <ing:ingrediente cantidad="70 g">Aceite de girasol</ing:ingrediente>
+            <ing:ingrediente cantidad="250 g">Harina de repostería</ing:ingrediente>
+            <ing:ingrediente cantidad="3 sobres dobles">Gaseosas</ing:ingrediente>
+        </ing:ingredientes>
+
+        <pre:preparacion>
+            <pre:paso numero="1">Forrar un molde rectangular de unos 18 x 30 cm.</pre:paso>
+            <pre:paso numero="2">Batir la calabaza asada con la panela.</pre:paso>
+            <pre:paso numero="3">Añadir los huevos y seguir batiendo hasta que la panela esté disuelta.</pre:paso>
+            <pre:paso numero="4">Añadir el aceite y seguir batiendo hasta que quede mezclado.</pre:paso>
+            <pre:paso numero="5">Añadir la harina y los sobres blancos. Remover con cuidado para que no queden grumos.</pre:paso>
+            <pre:paso numero="6">Añadir los sobres azules y remover hasta que queden mezclados.</pre:paso>
+            <pre:paso numero="7">Verter la mezcla en el molde preparado y espolvorear la superficie con azúcar y canela.</pre:paso>
+            <pre:paso numero="8">Hornear a 175 grados durante 25 minutos con el horno precalentado.</pre:paso>
+        </pre:preparacion>
+
+    </rec:receta>
+
+</rec:recetas>
